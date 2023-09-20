@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import home1 from "../public/assets/images/home1.jpg";
 import Technologies from "@components/Technologies";
+import OurValues from "@components/OurValues";
+import About from "@components/About";
 
 const Home = () => {
   return (
@@ -31,6 +33,8 @@ const Home = () => {
         </div>
       </div>
       <Technologies />
+      <OurValues />
+      <About />
     </section>
   );
 };

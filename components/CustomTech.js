@@ -1,20 +1,19 @@
 import React from "react";
+import web from "../public/assets/images/web.png";
+import Image from "next/image";
 
-const CustomTech = () => {
+const CustomTech = (props) => {
   return (
-    <div>
+    <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-4">
       <Image
         className="mt-10"
-        src={web}
+        src={props.image}
         alt="web developers"
         width={100}
         height={100}
       />
-      <p>Web Development</p>
-      <p>
-        We can help you build SAAS/ E-commerce or Progressive Web
-        applications(PWA).
-      </p>
+      <p className="semi_satoshi mt-2">{props.name}</p>
+      <p className="font-satoshi mt-2 ">{props.desc}</p>
     </div>
   );
 };

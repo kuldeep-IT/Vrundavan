@@ -172,3 +172,15 @@
 .nav_text{
   @apply font-satoshi font-semibold text-black;
 }
+
+.semi_satoshi{
+  @apply font-satoshi font-semibold text-black;
+}
+
+.about_text{
+  @apply font-satoshi text-xl mb-2 hover:cursor-pointer;
+}
+
+.about_head_text{
+  @apply text-3xl text-black font-satoshi mb-4;
+}
